@@ -1,0 +1,9 @@
+#!/bin/sh
+
+PATH_TO_WISH=/usr/bin/wish8.5
+PAGE_HOME=/Users/Nic/TIY/W2/MovieLens/page
+
+export PATH_TO_WISH
+export PAGE_HOME
+
+exec ${PATH_TO_WISH} ${PAGE_HOME}/page.tcl $*
