@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3b818ce-2e7f-41f6-9c8f-c171e95780c9" name="Default" comment="" />
+    <list default="true" id="e3b818ce-2e7f-41f6-9c8f-c171e95780c9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assignment" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Movies.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SupportClasses/csv_files.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/MovieLensData/ml-100k/README" afterPath="$PROJECT_DIR$/Data/MovieLensData/ml100k/README" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/MovieLensData/ml-100k/allbut.pl" afterPath="$PROJECT_DIR$/Data/MovieLensData/ml100k/allbut.pl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/MovieLensData/ml-100k/mku.sh" afterPath="$PROJECT_DIR$/Data/MovieLensData/ml100k/mku.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/MovieLensData/ml-100k/u.data" afterPath="$PROJECT_DIR$/Data/MovieLensData/ml100k/u.data" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/MovieLensData/ml-100k/u.genre" afterPath="$PROJECT_DIR$/Data/MovieLensData/ml100k/u.genre" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/MovieLensData/ml-100k/u.info" afterPath="$PROJECT_DIR$/Data/MovieLensData/ml100k/u.info" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/MovieLensData/ml-100k/u.item" afterPath="$PROJECT_DIR$/Data/MovieLensData/ml100k/u.item" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/MovieLensData/ml-100k/u.occupation" afterPath="$PROJECT_DIR$/Data/MovieLensData/ml100k/u.occupation" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/MovieLensData/ml-100k/u.user" afterPath="$PROJECT_DIR$/Data/MovieLensData/ml100k/u.user" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/MovieLensData/ml-100k/u1.base" afterPath="$PROJECT_DIR$/Data/MovieLensData/ml100k/u1.base" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/MovieLensData/ml-100k/u1.test" afterPath="$PROJECT_DIR$/Data/MovieLensData/ml100k/u1.test" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/MovieLensData/ml-100k/u2.base" afterPath="$PROJECT_DIR$/Data/MovieLensData/ml100k/u2.base" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/MovieLensData/ml-100k/u2.test" afterPath="$PROJECT_DIR$/Data/MovieLensData/ml100k/u2.test" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/MovieLensData/ml-100k/u3.base" afterPath="$PROJECT_DIR$/Data/MovieLensData/ml100k/u3.base" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/MovieLensData/ml-100k/u3.test" afterPath="$PROJECT_DIR$/Data/MovieLensData/ml100k/u3.test" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/MovieLensData/ml-100k/u4.base" afterPath="$PROJECT_DIR$/Data/MovieLensData/ml100k/u4.base" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/MovieLensData/ml-100k/u4.test" afterPath="$PROJECT_DIR$/Data/MovieLensData/ml100k/u4.test" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/MovieLensData/ml-100k/u5.base" afterPath="$PROJECT_DIR$/Data/MovieLensData/ml100k/u5.base" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/MovieLensData/ml-100k/u5.test" afterPath="$PROJECT_DIR$/Data/MovieLensData/ml100k/u5.test" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/MovieLensData/ml-100k/ua.base" afterPath="$PROJECT_DIR$/Data/MovieLensData/ml100k/ua.base" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/MovieLensData/ml-100k/ua.test" afterPath="$PROJECT_DIR$/Data/MovieLensData/ml100k/ua.test" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/MovieLensData/ml-100k/ub.base" afterPath="$PROJECT_DIR$/Data/MovieLensData/ml100k/ub.base" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/MovieLensData/ml-100k/ub.test" afterPath="$PROJECT_DIR$/Data/MovieLensData/ml100k/ub.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="MovieLens.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,72 +56,70 @@
     <favorites_list name="MovieLens" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FileActions.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/SupportClasses/FileActions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-639">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#207#234#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="u.occupation" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/Data/MovieLensData/ml-100k/u.occupation">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="u.item" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/Data/MovieLensData/ml-100k/u.item">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EOD-GOOG.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/z_InClass/EOD-GOOG.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="93" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="93" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/z_InClass/Main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/Data/MovieLensData/ml-100k/README">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1470">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5145798">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Main.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="607">
+                  <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+                  <folding>
+                    <element signature="e#0#63#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="Assignment" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assignment">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="900">
+                  <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/z_InClass/Main.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="1" column="41" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="41" />
+                  <folding>
+                    <element signature="e#0#50#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="StockData.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/z_InClass/StockData.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="378">
+                  <caret line="30" column="33" selection-start-line="22" selection-start-column="8" selection-end-line="30" selection-end-column="33" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Movies.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Movies.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,15 +128,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/TIY/W2/what-to-watch/SupportClasses/students.csv" />
-        <option value="$USER_HOME$/TIY/W2/what-to-watch/SupportClasses/FileActions.py" />
-        <option value="$USER_HOME$/TIY/W2/what-to-watch/InClass/StockData.py" />
-        <option value="$USER_HOME$/TIY/W2/what-to-watch/InClass/Main.py" />
-        <option value="$USER_HOME$/TIY/W2/WhatToWatch/SupportClasses/FileActions.py" />
-        <option value="$USER_HOME$/TIY/W2/WhatToWatch/z_InClass/Main.py" />
+        <option value="$PROJECT_DIR$/../what-to-watch/SupportClasses/students.csv" />
+        <option value="$PROJECT_DIR$/../what-to-watch/SupportClasses/FileActions.py" />
+        <option value="$PROJECT_DIR$/../what-to-watch/InClass/StockData.py" />
+        <option value="$PROJECT_DIR$/../what-to-watch/InClass/Main.py" />
+        <option value="$PROJECT_DIR$/z_InClass/Main.py" />
+        <option value="$PROJECT_DIR$/Assignment" />
+        <option value="$PROJECT_DIR$/SupportClasses/FileActions.py" />
+        <option value="$PROJECT_DIR$/SupportClasses/csv_files.py" />
+        <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/Movies.py" />
       </list>
     </option>
   </component>
@@ -120,10 +161,13 @@
           <State>
             <id>Internationalization issues</id>
           </State>
+          <State>
+            <id>Python</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>LossyEncoding</id>
+            <id>PyNonAsciiCharInspection</id>
           </State>
         </selected-state>
       </profile-state>
@@ -136,7 +180,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -158,49 +202,23 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="what-to-watch" />
+              <option name="myItemId" value="WhatToWatch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WhatToWatch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WhatToWatch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="z_InClass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="what-to-watch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WhatToWatch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SupportClasses" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="what-to-watch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WhatToWatch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="what-to-watch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -212,25 +230,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WhatToWatch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WhatToWatch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MovieLensData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ml100k" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FullScreen" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/TIY/W2/what-to-watch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../what-to-watch" />
+    <property name="full.screen.before.presentation.mode" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$USER_HOME$/TIY/W2/WhatToWatch/GUI" />
-      <recent name="$USER_HOME$/TIY/W2/WhatToWatch" />
-      <recent name="$USER_HOME$/TIY/W2/WhatToWatch/Data" />
-      <recent name="$USER_HOME$/TIY/W2/what-to-watch" />
+      <recent name="$PROJECT_DIR$/GUI" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Data" />
+      <recent name="$PROJECT_DIR$/../what-to-watch" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Main">
+  <component name="RunManager" selected="Python.Main (2)">
     <configuration default="false" name="FileActions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -238,12 +279,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/TIY/W2/what-to-watch/SupportClasses" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../what-to-watch/SupportClasses" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MovieLens" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/TIY/W2/what-to-watch/SupportClasses/FileActions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../what-to-watch/SupportClasses/FileActions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -255,12 +296,46 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/TIY/W2/what-to-watch/InClass" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../what-to-watch/InClass" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MovieLens" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/TIY/W2/what-to-watch/InClass/Main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../what-to-watch/InClass/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/z_InClass" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MovieLens" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/z_InClass/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MovieLens" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -399,14 +474,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.FileActions" />
       <item index="1" class="java.lang.String" itemvalue="Python.Main" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Main (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Main (2)" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.FileActions" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.Main (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Main (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Main" />
+        <item index="3" class="java.lang.String" itemvalue="Python.FileActions" />
       </list>
     </recent_temporary>
   </component>
@@ -426,28 +505,56 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17829457" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25783134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2819277" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2588889" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17829457" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -465,17 +572,33 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/SupportClasses/FileActions.py">
+    <entry file="file://$PROJECT_DIR$/SupportClasses/FileActions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        <state relative-caret-position="105">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#207#234#0" expanded="true" />
+            <element signature="e#207#234#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/z_InClass/EOD-GOOG.csv">
+    <entry file="file://$PROJECT_DIR$/Data/MovieLensData/ml100k/u.occupation">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/MovieLensData/ml100k/u.item">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_InClass/EOD-GOOG.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="93" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="93" />
@@ -483,7 +606,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/z_InClass/Main.py">
+    <entry file="file://$PROJECT_DIR$/z_InClass/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/MovieLensData/ml100k/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SupportClasses/FileActions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <folding>
+            <element signature="e#207#234#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_InClass/EOD-GOOG.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="93" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_InClass/Main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
@@ -493,7 +652,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/GUI/page/configure">
+    <entry file="file://$PROJECT_DIR$/GUI/page/configure">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_InClass/StockData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -501,153 +667,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/z_InClass/StockData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/SupportClasses/FileActions.py">
+    <entry file="file://$PROJECT_DIR$/SupportClasses/FileActions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
           <folding>
-            <element signature="e#207#234#0" expanded="true" />
+            <element signature="e#207#234#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/SupportClasses/students.csv">
+    <entry file="file://$PROJECT_DIR$/SupportClasses/students.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/SupportClasses/students.csv">
+    <entry file="file://$PROJECT_DIR$/SupportClasses/students.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/z_InClass/EOD-GOOG.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="93" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/z_InClass/StockData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="34" column="95" selection-start-line="34" selection-start-column="95" selection-end-line="34" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/Data/MovieLensData/ml-100k/allbut.pl">
+    <entry file="file://$PROJECT_DIR$/Data/MovieLensData/ml100k/allbut.pl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/Data/MovieLensData/ml-100k/mku.sh">
+    <entry file="file://$PROJECT_DIR$/Data/MovieLensData/ml100k/mku.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/Data/MovieLensData/ml-100k/u.user">
+    <entry file="file://$PROJECT_DIR$/Data/MovieLensData/ml100k/u.user">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/Data/MovieLensData/ml-100k/ub.test">
+    <entry file="file://$PROJECT_DIR$/Data/MovieLensData/ml100k/ub.test">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/Data/MovieLensData/ml-100k/u1.base">
+    <entry file="file://$PROJECT_DIR$/Data/MovieLensData/ml100k/u1.base">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/Data/MovieLensData/ml-100k/u.genre">
+    <entry file="file://$PROJECT_DIR$/Data/MovieLensData/ml100k/u.genre">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/Data/MovieLensData/ml-100k/u2.test">
+    <entry file="file://$PROJECT_DIR$/Data/MovieLensData/ml100k/u2.test">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/Data/MovieLensData/ml-100k/u2.base">
+    <entry file="file://$PROJECT_DIR$/Data/MovieLensData/ml100k/u2.base">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/Data/MovieLensData/ml-100k/u1.test">
+    <entry file="file://$PROJECT_DIR$/Data/MovieLensData/ml100k/u1.test">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/SupportClasses/FileActions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-639">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#207#234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/Data/MovieLensData/ml-100k/u.occupation">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/Data/MovieLensData/ml-100k/u.data">
+    <entry file="file://$PROJECT_DIR$/Data/MovieLensData/ml100k/u.data">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/page/configure">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_InClass/EOD-GOOG.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/Data/MovieLensData/ml-100k/u.item">
+    <entry file="file://$PROJECT_DIR$/Data/MovieLensData/ml100k/u.occupation">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -655,29 +784,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/GUI/page/configure">
+    <entry file="file://$PROJECT_DIR$/SupportClasses/FileActions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+        <state relative-caret-position="795">
+          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+          <folding>
+            <element signature="e#207#234#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/MovieLensData/ml100k/u.item">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="123" selection-start-line="0" selection-start-column="123" selection-end-line="0" selection-end-column="123" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/Data/MovieLensData/ml-100k/README">
+    <entry file="file://$PROJECT_DIR$/Data/MovieLensData/ml100k/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1470">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/TIY/W2/WhatToWatch/z_InClass/Main.py">
+    <entry file="file://$PROJECT_DIR$/SupportClasses/csv_files.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        <state relative-caret-position="285">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_InClass/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="41" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z_InClass/StockData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="30" column="33" selection-start-line="22" selection-start-column="8" selection-end-line="30" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Movies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
