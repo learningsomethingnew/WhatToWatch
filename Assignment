@@ -2,7 +2,7 @@ Specifically, you will need to be able to:
 
 Find all ratings for a movie by id
 Find the average rating for a movie by id
-Find the name of a movie by id
+Find the name of a movie by id ✓
 Find all ratings for a user
 Write methods to handle the above use cases, and then write some
     tests and load in some test data to ensure they work.
