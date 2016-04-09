@@ -1,5 +1,5 @@
-from SupportClasses.csv_files import open_csv_return_giant_list
-from Movie import Movie
+from SupportClasses.CreateFiles.csv_files import open_csv_return_giant_list
+
 
 class ProcessData():
 

@@ -10,6 +10,8 @@
 #   Thriller | War | Western |
 #######################################################
 
+from CustomExceptions.StandardClassExemptions import UserAlreadyReviewed
+
 class Movie():
 
     def __init__(self, *args):
@@ -27,7 +29,7 @@ class Movie():
 
     def add_ratings(self, a_user_id, a_rating):
         if a_user_id in self.movie_rating:
-            raise UserAlreadyRevieweded
+            raise UserAlreadyReviewed
         else:
             self.movie_rating[a_user_id] = a_rating
 
@@ -39,5 +41,3 @@ class Movie():
 
 
 
-class UserAlreadyRevieweded(Exception):
-    pass

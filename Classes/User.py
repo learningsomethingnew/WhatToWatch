@@ -2,6 +2,7 @@
 # Holds the user generic user data #
 ####################################
 
+from CustomExceptions.StandardClassExemptions import WrongType
 
 class User():
 
@@ -36,8 +37,7 @@ class User():
     def __str__(self):
         print("UserID {} {} {} ".format(self.user_id, self.age, self.gender))
 
-class WrongType(Exception):
-    pass
+
 
 
 

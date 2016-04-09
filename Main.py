@@ -1,7 +1,8 @@
+from Classes.Movie import Movie
+from Classes.User import User
+from Classes.ReviewData import ReviewData
 from ProcessData import ProcessData
-from Movie import Movie
-from User import User
-from ReviewData import ReviewData
+
 
 class Main():
 
@@ -17,8 +18,8 @@ class Main():
                                       encoding_latin, deli_with_line)
 
         #file rows are  user id | item id | rating | timestamp
-        self.review_dict = pd.read_file('u.data', ReviewData,
-                                        encoding_latin, deli_with_tabs)
+        #self.review_dict = pd.read_file('u.data', ReviewData,
+                                        #encoding_latin, deli_with_tabs)
 
         print(self.movie_dict)
 
