@@ -1,12 +1,17 @@
 ##############################################################
+# Last Modified: 4/9
+#
 # Creates a standard file for consistent beginning of file
 # commenting, class name, and starts with the final with
 # and init that passes.
+#
+# Things to add:
+#   Create dir,
+#   go up a level,
 ##############################################################
-
-from SupportClasses.FileActions import *
 import os
 import glob
+import time
 
 
 class CreateStandardFile():
@@ -20,15 +25,17 @@ class CreateStandardFile():
 
         #Kick of any methods to set up structure
         self._root_dir = self.set_main_dir()
-        self.filename = ""
-
+        self.filename = []
+        self.file_time = "# File last modified on: {}".format(time.strftime("%m/%d/%Y"))
 
         ########################################
         self.python_file_list = ["##############################################################\n",
+
+                                 self.file_time,
+                                 "\n"
                                  '# Please define the class here\n',
                                  "##############################################################\n",
                                  "\n\n\n"]
-
 
 
     """Globs the dir set by a_dir. Stores in a temp_list
@@ -97,21 +104,21 @@ class CreateStandardFile():
         print("What is the name of the file?")
 
         #tests if user placed .py in the string
-        temp_name = self.test_for_py(self.user_input())
+        temp_name = self.user_input()
+        print(temp_name)
 
-        #joins file path and file name together
-        self.filename= os.path.join(self._root_dir,temp_name)
-
-        _class_setup1 = "class {}(): \n\n".format(temp_name[:3])
+        _class_setup1 = "class {}(): \n\n".format(temp_name)
         _class_setup2 = "    def __init__(self): \n"
         _class_setup3 = "        pass\n\n\n\n\n\n\n\n\n\n"
         _class_setup4 = "if __name__ == '__main__':\n"
-        _class_setup5 = "    f = {}()".format(temp_name[:3])
+        _class_setup5 = "    f = {}()".format(temp_name)
 
-        if os.path.isfile(self._root_dir+"/"+self.filename):
+        temp_name = self.test_for_py(temp_name)
+
+        if os.path.isfile(self._root_dir+"/"+temp_name):
             print("File Exists. Please enter a new name")
         else:
-            file = open(self.filename, 'w')
+            file = open(os.path.join(self._root_dir,temp_name), 'w')
 
             #setting up the py file as preferred
             file.writelines(self.python_file_list)
@@ -148,5 +155,3 @@ class CreateStandardFile():
 if __name__ == '__main__':
     f = CreateStandardFile()
     f.main()
-
-    #f.walk_current_dir()
