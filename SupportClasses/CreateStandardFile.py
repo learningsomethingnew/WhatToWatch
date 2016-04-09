@@ -6,6 +6,7 @@
 # and init that passes.
 #
 # Things to add:
+#   git recognition
 #   Create dir,
 #   go up a level,
 ##############################################################
