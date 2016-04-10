@@ -37,7 +37,10 @@ class CreateStandardFile():
                                  '# Please define the class here\n',
                                  "##############################################################\n",
                                  "\n\n\n"]
-
+        self.python_end_of_file_list = [
+            "#########################################################################################\n,",
+            "#                                      Old Code\n",
+            "#########################################################################################\n"]
 
     """Globs the dir set by a_dir. Stores in a temp_list
         sends to test method to remove unwanted dirs.
@@ -112,7 +115,7 @@ class CreateStandardFile():
         _class_setup2 = "    def __init__(self): \n"
         _class_setup3 = "        pass\n\n\n\n\n\n\n\n\n\n"
         _class_setup4 = "if __name__ == '__main__':\n"
-        _class_setup5 = "    f = {}()".format(temp_name)
+        _class_setup5 = "    f = {}()\n".format(temp_name)
 
         temp_name = self.test_for_py(temp_name)
 
@@ -128,6 +131,7 @@ class CreateStandardFile():
             file.write(_class_setup3)
             file.write(_class_setup4)
             file.write(_class_setup5)
+            file.writelines(self.python_end_of_file_list)
 
 
             file.close()

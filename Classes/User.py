@@ -2,7 +2,7 @@
 # Holds the user generic user data #
 ####################################
 
-from CustomExceptions.StandardClassExemptions import WrongType
+from CustomExceptions.StandardClassExemptions import WrongType, UserAlreadyReviewed
 
 class User():
 
@@ -31,11 +31,15 @@ class User():
         except:
             raise WrongType("Converting to int was passed a non-int")
 
-    def add_to_user_rating_dict(self, user_rating, movie_score):
-        pass
+    def add_to_user_rating_dict(self, a_movie_id, a_movie_score):
+        if a_movie_id in self.user_rating:
+            raise UserAlreadyReviewed
+        else:
+            self.user_rating[a_movie_id] = a_movie_score
+
 
     def __str__(self):
-        print("UserID {} {} {} ".format(self.user_id, self.age, self.gender))
+        return("UserID: {}, Age: {}, Gender:{} ".format(self.user_id, self.age, self.gender))
 
 
 

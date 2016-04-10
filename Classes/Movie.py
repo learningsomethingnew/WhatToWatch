@@ -15,6 +15,8 @@ from CustomExceptions.StandardClassExemptions import UserAlreadyReviewed
 class Movie():
 
     def __init__(self, *args):
+        #print(args)
+
         self.movie_id = args[0][0]
         self.movie_title = args[0][1]
         self.movie_release_date = args[0][2]
