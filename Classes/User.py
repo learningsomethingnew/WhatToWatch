@@ -37,6 +37,10 @@ class User():
         else:
             self.user_rating[a_movie_id] = a_movie_score
 
+    """Returns a dict of instance user reviews
+        movie_id | movie_score"""
+    def get_all_user_reviews(self):
+        return self.user_rating
 
     def __str__(self):
         return("UserID: {}, Age: {}, Gender:{} ".format(self.user_id, self.age, self.gender))

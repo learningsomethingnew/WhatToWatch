@@ -13,7 +13,10 @@ class WrongType(Exception):
     pass
 
 
+class NoneWasPassed(Exception):
+    pass
 
-
+class MovieNotFound(Exception):
+    pass
 
 

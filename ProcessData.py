@@ -34,9 +34,14 @@ class ProcessData():
     def read_file_return_list(self, a_file, a_encode, deli_type):
         temp_name = self._movie_data_dir + '/' + a_file
         temp_list = []
+
         a = open_csv_return_giant_list(temp_name, a_encode, deli_type)
         for i, row in enumerate(a):
-            print(i, row)
+            temp_row = []
+            for item in row:
+                temp_row.append(int(item))
+            temp_list.append(temp_row)
+        return(temp_list)
 
 
 
