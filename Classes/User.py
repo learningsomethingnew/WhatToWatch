@@ -42,6 +42,9 @@ class User():
     def get_all_user_reviews(self):
         return self.user_rating
 
+    def get_all_reviewed_movies(self):
+        return list(self.user_rating.keys())
+
     def __str__(self):
         return("UserID: {}, Age: {}, Gender:{} ".format(self.user_id, self.age, self.gender))
 

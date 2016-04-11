@@ -4,14 +4,12 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3b818ce-2e7f-41f6-9c8f-c171e95780c9" name="Default" comment="Step 1 completed.">
+    <list default="true" id="e3b818ce-2e7f-41f6-9c8f-c171e95780c9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignment" afterPath="$PROJECT_DIR$/Assignment" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Movie.py" afterPath="$PROJECT_DIR$/Classes/Movie.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/User.py" afterPath="$PROJECT_DIR$/Classes/User.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CustomExceptions/StandardClassExemptions.py" afterPath="$PROJECT_DIR$/CustomExceptions/StandardClassExemptions.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main.py" afterPath="$PROJECT_DIR$/Main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProcessData.py" afterPath="$PROJECT_DIR$/ProcessData.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SupportClasses/CreateStandardFile.py" afterPath="$PROJECT_DIR$/SupportClasses/CreateStandardFile.py" />
     </list>
     <ignored path="MovieLens.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,13 +29,13 @@
     <favorites_list name="MovieLens" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.509434">
+    <splitter split-orientation="horizontal" split-proportion="0.44749823">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="README" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Data/MovieLensData/ml100k/README">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1650">
+                <state relative-caret-position="0">
                   <caret line="110" column="51" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="51" />
                   <folding />
                 </state>
@@ -57,8 +55,8 @@
           <file leaf-file-name="Logic.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Classes/Logic.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+                <state relative-caret-position="180">
+                  <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
@@ -67,8 +65,8 @@
           <file leaf-file-name="User.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Classes/User.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+                <state relative-caret-position="259">
+                  <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
                   <folding />
                 </state>
               </provider>
@@ -77,18 +75,28 @@
           <file leaf-file-name="Movie.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Classes/Movie.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="550">
+                <state relative-caret-position="409">
                   <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Assignment" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Assignment" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assignment">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="29" />
+                <state relative-caret-position="420">
+                  <caret line="21" column="53" selection-start-line="20" selection-start-column="27" selection-end-line="21" selection-end-column="53" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GetPopMovies.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Classes/PopularMovies/GetPopMovies.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
                   <folding />
                 </state>
               </provider>
@@ -98,24 +106,13 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="ReviewData.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Classes/ReviewData.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="70" column="59" selection-start-line="70" selection-start-column="59" selection-end-line="70" selection-end-column="59" />
+                <state relative-caret-position="-476">
+                  <caret line="100" column="60" selection-start-line="87" selection-start-column="1" selection-end-line="100" selection-end-column="60" />
                   <folding>
                     <element signature="e#0#31#0" expanded="true" />
-                    <marker date="1460332580000" expanded="true" signature="1591:1740" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -158,13 +155,14 @@
         <option value="$PROJECT_DIR$/User.py" />
         <option value="$PROJECT_DIR$/Movie.py" />
         <option value="$PROJECT_DIR$/SupportClasses/CreateFiles/csv_files.py" />
-        <option value="$PROJECT_DIR$/SupportClasses/CreateStandardFile.py" />
         <option value="$PROJECT_DIR$/CustomExceptions/StandardClassExemptions.py" />
         <option value="$PROJECT_DIR$/ProcessData.py" />
         <option value="$PROJECT_DIR$/Classes/Movie.py" />
-        <option value="$PROJECT_DIR$/Main.py" />
-        <option value="$PROJECT_DIR$/Classes/User.py" />
         <option value="$PROJECT_DIR$/Assignment" />
+        <option value="$PROJECT_DIR$/Classes/User.py" />
+        <option value="$PROJECT_DIR$/SupportClasses/CreateStandardFile.py" />
+        <option value="$PROJECT_DIR$/Classes/PopularMovies/GetPopMovies.py" />
+        <option value="$PROJECT_DIR$/Main.py" />
       </list>
     </option>
   </component>
@@ -219,8 +217,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -249,7 +247,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="SupportClasses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WhatToWatch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WhatToWatch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="CustomExceptions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WhatToWatch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WhatToWatch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WhatToWatch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WhatToWatch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PopularMovies" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,14 +310,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Classes/PopularMovies" />
       <recent name="$PROJECT_DIR$/Classes" />
       <recent name="$PROJECT_DIR$/SupportClasses/CreateFiles" />
       <recent name="$PROJECT_DIR$/SupportClasses/WebRelated" />
       <recent name="$PROJECT_DIR$/CustomExceptions" />
-      <recent name="$PROJECT_DIR$/GUI" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Main">
+  <component name="RunManager" selected="Python.CreateStandardFile">
     <configuration default="false" name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -484,8 +528,8 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.CreateStandardFile" />
+        <item index="0" class="java.lang.String" itemvalue="Python.CreateStandardFile" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Main" />
         <item index="2" class="java.lang.String" itemvalue="Python.CustomExceptions" />
         <item index="3" class="java.lang.String" itemvalue="Python.ProcessData" />
       </list>
@@ -554,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1460255306425</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Step 1 completed, minus tests. &#10;Find all ratings for a movie by id ✓&#10;Find the average rating for a movie by id ✓&#10;Find the name of a movie by id ✓&#10;Find all ratings for a user ✓">
+      <created>1460332789997</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1460332789997</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -572,21 +623,21 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17829457" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4253012" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25662652" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25662652" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32650602" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -627,20 +678,14 @@
     <MESSAGE value="Fixed a bug for the CSF py class. It would only class name the first 3 letters. Now it will print the entire class name." />
     <MESSAGE value="Restructured file dirs" />
     <MESSAGE value="Adding User reviews. Error in importing the user review list and converting to int. Fix this Nic." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding User reviews. Error in importing the user review list and converting to int. Fix this Nic." />
+    <MESSAGE value="Step 1 completed, minus tests. &#10;Find all ratings for a movie by id ✓&#10;Find the average rating for a movie by id ✓&#10;Find the name of a movie by id ✓&#10;Find all ratings for a user ✓" />
+    <option name="LAST_COMMIT_MESSAGE" value="Step 1 completed, minus tests. &#10;Find all ratings for a movie by id ✓&#10;Find the average rating for a movie by id ✓&#10;Find the name of a movie by id ✓&#10;Find all ratings for a user ✓" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/z_InClass/StockData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SupportClasses/CreateFiles/FileActions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -768,13 +813,6 @@
     <entry file="file://$PROJECT_DIR$/Data/test.py" />
     <entry file="file://$PROJECT_DIR$/SupportClasses/test.py" />
     <entry file="file://$PROJECT_DIR$/CustomExceptions.py" />
-    <entry file="file://$PROJECT_DIR$/Data/MovieLensData/ml100k/u.data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="100000" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/StandardFileExceptions.py" />
     <entry file="file://$PROJECT_DIR$/asddsdasdasdasdasdasdasdasda.py" />
@@ -812,13 +850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SupportClasses/CreateStandardFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="42" column="104" selection-start-line="42" selection-start-column="104" selection-end-line="42" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/MovieLensData/ml100k/u.user">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -828,16 +859,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/MovieLensData/ml100k/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
+        <state relative-caret-position="0">
           <caret line="110" column="51" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Logic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -846,6 +869,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -853,6 +877,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/MovieLensData/ml100k/u.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="100000" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Movie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/User.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Logic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="53" selection-start-line="20" selection-start-column="27" selection-end-line="21" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SupportClasses/CreateStandardFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -865,37 +937,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Movie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="70" column="59" selection-start-line="70" selection-start-column="59" selection-end-line="70" selection-end-column="59" />
+        <state relative-caret-position="-476">
+          <caret line="100" column="60" selection-start-line="87" selection-start-column="1" selection-end-line="100" selection-end-column="60" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
-            <marker date="1460332580000" expanded="true" signature="1591:1740" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/User.py">
+    <entry file="file://$PROJECT_DIR$/Classes/PopularMovies/GetPopMovies.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="210">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
           <folding />
         </state>
       </provider>

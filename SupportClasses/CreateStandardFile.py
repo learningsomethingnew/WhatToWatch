@@ -1,11 +1,12 @@
 ##############################################################
-# Last Modified: 4/9
+# Last Modified: 4/10
 #
 # Creates a standard file for consistent beginning of file
 # commenting, class name, and starts with the final with
 # and init that passes.
 #
 # Things to add:
+#   if list of dirs is less than one, input name of file
 #   git recognition
 #   Create dir,
 #   go up a level,

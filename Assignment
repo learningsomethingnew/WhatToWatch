@@ -7,12 +7,12 @@ Find all ratings for a user ✓
 Write methods to handle the above use cases, and then write some
     tests and load in some test data to ensure they work.
 
-Step 2
+Step 2 ✓
 You need to be able to load in movie and rating data. Using the csv module,
     write a module that will load in the the user data from u.user,
         the movie data from u.item, and the rating data from u.info.
 
-Step 3
+Step 3 ✓
 The easiest way to recommend movies is to recommend the most popular movies.
     Write a program to show the top X movies by average rating with their
     rating. You need to be able to state a minimum number of ratings for a
